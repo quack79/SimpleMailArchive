@@ -53,7 +53,7 @@ namespace SimpleMailArchiver
             Logger = app.Logger;
 
             Logger.LogInformation(
-                "Using conifg:\n\t" +
+                "Using config:\n\t" +
                 $"Account configs path: {Config.AccountConfigsPath}\n\t" +
                 $"Import base path: {Config.ImportBasePath}\n\t" +
                 $"Archive base path: {Config.ArchiveBasePath}\n\t" +

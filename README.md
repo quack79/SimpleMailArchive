@@ -4,9 +4,9 @@ A simple web application to backup & archive email from an IMAP server on your o
 
 Here are a few screenshots (please excuse the silly test emails, I just used a bunch of mails I found on the internet as test data to cover as many languages etc. as possible)
 
-![Overview of the archive](doc/ressources/browse_view2.png)
-![Viewing a single message](doc/ressources/message_view.png)
-![Viewing of the import page](doc/ressources/import_view.png)
+![Overview of the archive](doc/resources/browse_view2.png)
+![Viewing a single message](doc/resources/message_view.png)
+![Viewing of the import page](doc/resources/import_view.png)
 
 ## How to use
 Two options:
@@ -55,7 +55,7 @@ Currently, there are no access restrictions implemented. If you want / need acce
 or `traefik` and add access control this way.
 
 ### What about SSL?
-As with access restrictions, there is nothing directly build into this application at the moment. But running behind a reverse proxy like suggested for the access restrictions also gives you the option to add encryption at this stage.
+As with access restrictions, there is nothing directly built into this application at the moment. But running behind a reverse proxy also gives you the option to add encryption at this stage.
 
 ### How many emails can it handle?
 I don't know. I curently have around 18.000 emails in my personal archive and it works just fine and is very responsive. When going into 6 or 7 figures worth of emails, the limiting factor will probably be the sqlite database which can be switched to something more powerfull with little effort. Should you run into problems because of too many emails, just open an issue and I will see what I can do.
